@@ -1,1 +1,16 @@
 
+DiceRoll(){
+
+int dIce[6] = {1,2,3,4,5,6}; //Array holds dice value 1-6
+int rOll = randi; //Sets random dice to Roll
+
+if(rOll == 2||4||6){
+  
+  DiceRoll(); //If roles a double go again
+  
+}
+else{
+  break;
+}
+
+}
